@@ -8,19 +8,15 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h3 {
-    font-weight: bold;
-    color: white;
-}
 
 .row {
     width: 100%;
 }
 
-.main-title {
+.mainTitle {
     text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .container {
@@ -29,7 +25,7 @@ h3 {
     margin: 15px;
 }
 
-.item {
+.box {
     position: relative;
     top: 0;
     background-color: #c7c7c7;
@@ -38,31 +34,36 @@ h3 {
     border: 3px solid #464646;
 }
 
-.item p {
-    margin-top: 18px;
-    text-align: justify;
-    font-size: 100%;
-}
-
-.item-title {
+.box-title {
     position: absolute;
     top: 0;
     right: 0px;
-    background: white;
     padding: 6px 90px;
     border-left: 3px solid #464646;
     border-bottom: 3px solid #464646;
 }
 
-#title-one {
+.box p {
+    margin-top: 18px;
+    text-align: justify;
+    font-size: 100%;
+}
+
+.box h3 {
+    font-weight: bold;
+    color: white;
+}
+
+
+#Chicken_1 {
     background-color: #e94b4b;
 }
 
-#title-two {
+#Beef_2 {
     background-color: #e4921f;
 }
 
-#title-three {
+#Sushi_3 {
     background-color: #2e6be6;
 }
 
